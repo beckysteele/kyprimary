@@ -40,8 +40,16 @@ h1 {
 	font-weight: 600;
 	margin: 10px, 0, 10px, 0;
 	color: #55b0e6;
-	font-size: 5em;
+	font-size: 8em;
 	
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 3em;
 }
 
 a, ul.nav li a:visited {
@@ -60,6 +68,7 @@ li {
 
 .section-title h2 {
 	color: #55b0e6;
+	margin: 10%;
 }
 
 .date {
@@ -75,11 +84,26 @@ p, a {
 	color: #fff;
 }
 
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
 /* Content Sections*/
 
 .content-block {
 	display: inline-block;
 	margin: 2%;
+}
+
+.header {
+	padding: 2%;
+	background-color: lightgray;
+
 }
 
 /* Media Queries */
