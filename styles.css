@@ -31,6 +31,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300, 400, 600;
+	text-align: center;
 
 }
 
@@ -38,12 +39,47 @@ h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	margin: 10px, 0, 10px, 0;
+	color: #55b0e6;
+	font-size: 5em;
 	
 }
 
 a, ul.nav li a:visited {
 	color: #B71C1C;
 
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	margin: 0 2%;
+}
+
+.section-title h2 {
+	color: #55b0e6;
+}
+
+.date {
+	color: #B71C1C;;
+}
+
+p, a {
+	font-size: 2em;
+}
+
+.btn-default {
+	background-color: #B71C1C;
+	color: #fff;
+}
+
+/* Content Sections*/
+
+.content-block {
+	display: inline-block;
+	margin: 2%;
 }
 
 /* Media Queries */
