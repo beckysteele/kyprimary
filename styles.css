@@ -9,6 +9,318 @@
 	background-image: asset-url('main-logo.png') no-repeat;
 	background-size: 100%;
 }
+<<<<<<< HEAD
+=======
+
+
+.actions {
+	padding: 1rem;
+}
+
+.field {
+	padding: 1rem;
+}
+
+.svglogo {
+	padding: 1rem;
+	margin-top: 2rem;
+}
+
+
+
+
+/* Typography */
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300, 400, 600;
+
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin: 10px, 0, 10px, 0;
+	
+}
+
+a, ul.nav li a:visited {
+	color: #B71C1C;
+
+}
+
+/* Media Queries */
+
+@media (max-width: 100%) {
+	.jumbotron {
+		padding: 80px 0 80px 0;
+	}
+
+	.content {
+		padding-top: 190px;
+		}
+
+	.panel {
+	padding: 2rem;
+	}
+
+	./*ft-copy {
+		padding-top: 2rem;
+	}*/
+	.ft-copy {
+		width: auto;
+	}
+
+@media (max-width: 767px) {
+	.navbar {
+		min-height: 60px;
+	}
+	.main-logo {
+		width: 82px;
+		margin-top: 20px;
+	}
+	.jumbotron {
+		padding-top: 80px;
+		margin-top: 32px;
+		margin-bottom: 32px;
+	}
+
+	.container {
+		padding: 60px;
+		}
+
+	.panel {
+	padding: 1rem;
+	margin-top: 1rem;
+	}
+
+	.lead {
+		margin-bottom: 40px;
+	}
+	.ft {
+		margin-bottom: 16px;
+	}
+
+
+
+
+
+
+
+
+/* --------------------------
+  Keyframes for logo
+--------------------------- */
+
+/*d target*/
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+}
+
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+  }
+  30% {
+    -webkit-transform: scale(1.1);
+  }
+  60% {
+    -webkit-transform: scale(0.9);
+  }
+}
+
+
+@keyframes turn {
+  0% {
+    transform: rotate(0) scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: rotate(375deg) scale(1.1);
+  }
+  80% {
+    transform: rotate(355deg) scale(0.9);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@-webkit-keyframes turn {
+  0% {
+   -webkit-transform: rotate(0) scale(0);
+   opacity: 0;
+  }
+  60% {
+    -webkit-transform: rotate(375deg) scale(1.1);
+  }
+  80% {
+    -webkit-transform: rotate(355deg) scale(0.9);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+  }
+}
+
+/*
+@keyframes pulse {
+  10% {
+    transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes pulse {
+  10% {
+    transform: scale(1.2);
+  }
+}
+*/
+  
+@keyframes hatch {
+	0% {
+		transform: rotate(0deg) scaleY(0.6);
+	}
+	20% {
+		transform: rotate(-2deg) scaleY(1.05);
+	}
+	35% {
+		transform: rotate(2deg) scaleY(1);
+	}
+	50% {
+		transform: rotate(-2deg);
+	}	
+	65% {
+		transform: rotate(1deg);
+	}	
+	80% {
+		transform: rotate(-1deg);
+	}		
+	100% {
+		transform: rotate(0deg);
+	}									
+}
+
+@-webkit-keyframes hatch {
+	0% {
+		-webkit-transform: rotate(0deg) scaleY(0.6);
+	}
+	20% {
+		-webkit-transform: rotate(-2deg) scaleY(1.05);
+	}
+	35% {
+		-webkit-transform: rotate(2deg) scaleY(1);
+	}
+	50% {
+		-webkit-transform: rotate(-2deg);
+	}	
+	65% {
+		-webkit-transform: rotate(1deg);
+	}	
+	80% {
+		-webkit-transform: rotate(-1deg);
+	}		
+	100% {
+		-webkit-transform: rotate(0deg);
+	}		
+}
+
+/*
+ Colors 
+@-webkit-keyframes color_change {
+	from { background-color: olive; }
+	to { background-color: #C1272D; }
+}
+@-moz-keyframes color_change {
+	from { background-color: olive; }
+	to { background-color: #C1272D; }
+}
+@-ms-keyframes color_change {
+	from { background-color: olive; }
+	to { background-color: #C1272D; }
+}
+@-o-keyframes color_change {
+	from { background-color: olive; }
+	to { background-color: #C1272D; }
+}
+@keyframes color_change {
+	from { background-color: olive; }
+	to { background-color: #C1272D; }
+}
+*/
+
+@keyframes rollIn { 
+    0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); } 
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+} 
+
+@-webkit-keyframes rollIn { 
+    0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); } 
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+} 
+
+
+
+
+/*
+/* --------------------------
+  SVG Styles
+--------------------------- */
+
+hatch{
+	animation-name: hatch;
+	-webkit-animation-name: hatch;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;
+
+	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%; 
+
+	visibility: visible !important;		
+}
+
+.bluecircle {
+    animation: hatch 1s ease-out backwards;
+    -webkit-animation: hatch 1s ease-out backwards;
+}
+
+.inner {
+    animation-delay: .1s;
+    -webkit-animation-delay: .1s;
+}
+
+.inline {
+    animation-delay: .15s;
+    -webkit-animation-delay: .1s;
+}
+
+.letterd { 
+    -webkit-animation-name: rollIn; 
+    animation-name: rollIn; 
+  
+    -webkit-animation-duration: 1.7s; 
+    animation-duration: 1.7s; 
+  
+    -webkit-animation-fill-mode: none; 
+    animation-fill-mode: none; 
+  
+    -webkit-animation-timing-function: ease-in-out; 
+    animation-timing-function: ease-in-out;
+  
+}
+>>>>>>> b8659d1fd5aded397d31553d6a56616b0f35ecaf
 
 
 .actions {
