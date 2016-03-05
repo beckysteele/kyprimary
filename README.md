@@ -37,6 +37,7 @@ A landing page for Kentucky citizens to learn how and where to vote in the 2016 
 *   Democratic KY Senate candidates[see here](https://ballotpedia.org/Kentucky_State_Senate_elections,_2016)
 *   Democratic KY House candidates[see here](https://ballotpedia.org/Kentucky_House_of_Representatives_elections,_2016)
 * Absentee Ballot availability for residents of other states
+* Q & A for obtaining and using an absentee ballot[see here](http://elect.ky.gov/voterinfo/pages/absenteevoterinformation.aspx)
 * 
 
 POP UP POLLING PLACES - POP UP EVENTS/VIRTUAL EVENTS
