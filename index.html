@@ -5,64 +5,94 @@
 </head>
 
 <body>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
   <h1>kyprimary.com</h1>
 
-  {{> hello}}
-
-  	<button class="btn btn-default" href="#when" role="button">When</button>
-  	<button class="btn btn-default" href="#how" role="button">How</button>
-  	<button class="btn btn-default" href="#what" role="button">Who</button>
-  	<button class="btn btn-default" href="#why" role="button">Where</button>
-  	<button class="btn btn-default" href="#share" role="button">Share</button>
+  	<a class="btn btn-default" href="#when" role="button">When</a>
+  	<a class="btn btn-default" href="#how" role="button">How</a>
+  	<a class="btn btn-default" href="#who" role="button">Who</a>
+  	<a class="btn btn-default" href="#where" role="button">Where</a>
+  	<a class="btn btn-default" href="#share" role="button">Share</a>
 
   	<div>
-  		<h2>When to Vote</h2>
-  		<p>First Time Registration Deadline: Monday, April 18, 2016</p>
-  		<p>Kentucky Primary Election: Tuesday, May 17, 2016</p>
+  		<a name="when"></a>
+  		<h2>Important Dates</h2>
+  		<p>First Time Registration Deadline:</p>
+  		<p class="date">Monday, April 18, 2016</p>
+  		<p>Kentucky Primary Election:</p>
+  		<p class="date">Tuesday, May 17, 2016</p>
   	</div>
 
   	<div>
-  		<h2>How to Vote</h2>
+  		<a name="how"></a>
+  		<h2>How to Register</h2>
   		<!-- https://vrsws.sos.ky.gov/ovrweb/  -->
   		<p>You must be a registered Democrat to vote in the 2016 Kentucky Primary Election!</p>
-  		<button class="btn btn-default" href="https://vrsws.sos.ky.gov/vic/" target="_blank" role="button">Am I a Registered Democrat?</button>
+  		<a class="btn btn-default" href="https://vrsws.sos.ky.gov/vic/" target="_blank" role="button">Am I a Registered Democrat?</a>
   		<p>First time registering?  Register by April 18, 2016 in order to vote!</p>
-  		<button class="btn btn-default" href="https://vrsws.sos.ky.gov/ovrweb/" target="_blank" role="button">First Time Voter Registration</button>
-  		<!-- http://ags2.lojic.org/WhereDoIVote/-->
-  		<button class="btn btn-default" href="http://ags2.lojic.org/WhereDoIVote/" target="_blank" role="button">Where do I vote?</button>
+  		<a class="btn btn-default" href="https://vrsws.sos.ky.gov/ovrweb/" target="_blank" role="button">First Time Voter Registration</a>
 
   	</div>
 
   	<div>
+  		<a name="who"></a>
   		<h2>Who is Running</h2>
+  		<h3>Presidential</h3>
   		<ul class="presidential">
-  			<li><a href="https://www.hillaryclinton.com/">Hillary Clinton</a></li>
-  			<li><a href="https://berniesanders.com/?nosplash=true/">Bernie Sanders</a></li>
-  			<li><a href="https://martinomalley.com/">Martin O'Malley</a></li>
-  			<li><a href="https://rocky2016.com">Roque De La Fuente</a></li>
+  			<li><a href="https://www.hillaryclinton.com/" target="_blank">Hillary Clinton</a></li>
+  			<li><a href="https://berniesanders.com/?nosplash=true/" target="_blank">Bernie Sanders</a></li>
+  			<li><a href="https://martinomalley.com/" target="_blank">Martin O'Malley</a></li>
+  			<li><a href="https://rocky2016.com" target="_blank">Roque De La Fuente</a></li>
   		</ul>
+  		<h3>U.S. Senate</h3>
   		<ul class="us-senate">
-  			<li><a href="https://www.hillaryclinton.com/">Hillary Clinton</a></li>
-  			<li><a href="https://berniesanders.com/?nosplash=true/">Bernie Sanders</a></li>
-  			<li><a href="https://martinomalley.com/">Martin O'Malley</a></li>
-  			<li><a href="https://rocky2016.com">Roque De La Fuente</a></li>
+  			<li><a href="#" target="_blank">US Senate Candidate #1</a></li>
+  			<li><a href="#" target="_blank">US Senate Candidate #2</a></li>
+  			<li><a href="#" target="_blank">US Senate Candidate #3</a></li>
+  			<li><a href="#" target="_blank">US Senate Candidate #4</a></li>
   		</ul>
+  		<h3>U.S. House</h3>
+  		<ul class="us-house">
+  			<li><a href="#" target="_blank">US House Candidate #1</a></li>
+  			<li><a href="#" target="_blank">US House Candidate #2</a></li>
+  			<li><a href="#" target="_blank">US House Candidate #3</a></li>
+  			<li><a href="#" target="_blank">US House Candidate #4</a></li>
+  		</ul>
+  		<h3>Kentucky State Senate</h3>
+  		<ul class="ky-senate">
+  			<li><a href="#" target="_blank">KY Senate Candidate #1</a></li>
+  			<li><a href="#" target="_blank">KY Senate Candidate #2</a></li>
+  			<li><a href="#" target="_blank">KY Senate Candidate #3</a></li>
+  			<li><a href="#" target="_blank">KY Senate Candidate #4</a></li>
+  		</ul>
+  		<h3>Kentucky State House</h3>
+  		<ul class="ky-house">
+  			<li><a href="#" target="_blank">KY House Candidate #1</a></li>
+  			<li><a href="#" target="_blank">KY House Candidate #2</a></li>
+  			<li><a href="#" target="_blank">KY House Candidate #3</a></li>
+  			<li><a href="#" target="_blank">KY House Candidate #4</a></li>
+  		</ul>  		
 
   	</div>
 
   	<div>
+  		<a name="where"></a>
   		<h2>Where Do I Vote?</h2>
-  		<button class="btn btn-default" href="" target="_blank" role="button">Where Do I Vote?</button>
+  		<a class="btn btn-default" href="https://vrsws.sos.ky.gov/vic/" target="_blank" role="button">Where Do I Vote?</a>
   	</div>  	
 
   	<div>
+  		<a name="share"></a>
   		<h2>Share</h2>
-  		<button class="btn btn-default" href="#" target="_blank" role="button">Facebook</button>
-  		<button class="btn btn-default" href="#" target="_blank" role="button">Twitter</button>
-  	</div>    	
 
+  		<a class="btn btn-default" href="#" target="_blank" role="button">Facebook</a>
+  		<a class="btn btn-default" href="#" target="_blank" role="button">Twitter</a>
+  	</div>    	
+  	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  	<script type="text/javascript" src="app.js"></script>
 
 </body>
 

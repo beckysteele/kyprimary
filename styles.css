@@ -1,1 +1,17 @@
+body {
+	text-align: center;
+}
 
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	margin: 5%;
+}
+
+.date {
+	color: #55b0e6;
+	font-size: 1.5em;
+}
