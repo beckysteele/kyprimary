@@ -66,6 +66,12 @@ li {
 	margin: 0 2%;
 }
 
+img {
+	width: 35%;
+	height: auto;
+	border-radius: 20%;
+}
+
 .section-title h2 {
 	color: #55b0e6;
 	margin: 10%;
