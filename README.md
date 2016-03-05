@@ -31,3 +31,21 @@ The Team:
 * Margeaux S.
 * Becky S.
 * Greg C.
+* 
+
+
+
+
+
+Polling Places- Primary
+[see here](https://datahub.io/dataset/jefferson-county-polling-locations/resource/516575ff-99a2-4b3d-a51d-c59f72d896ba)
+[see here](https://vrsws.sos.ky.gov/vic/)
+
+Absentee Ballot Availability
+[see here](http://elect.ky.gov/voterinfo/Pages/absenteevoterinformation.aspx)
+
+2016 Election Calander
+[see here](http://elect.ky.gov/SiteCollectionDocuments/Election%20Calendars/2016%20Election%20Calendar%20(LSZ).final%20approval%201-22-2014.pdf)
+
+
+
