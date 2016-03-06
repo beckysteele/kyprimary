@@ -11,12 +11,15 @@
 }
 
 .flex-container{
+  display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
 }
 
 .item{
   margin: auto;
+  
 }
 
 .actions {
@@ -31,26 +34,24 @@
 
 /* Typography */
 body{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300, 400, 600;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100, 400, 800;
 	text-align: center;
 
 }
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rozha One', serif;
 	margin: 10px, 0, 10px, 0;
 	color: #55b0e6;
-    font-size: 5em;	
+    font-size: 4em;	
 }
 
-h2 {
+h2, h3 {
+  font-family: 'Rozha One', serif;
 /*	font-size: 4em;*/
 }
 
-h3 {
-/*	font-size: 3em;*/
-}
 
 a, ul.nav li a:visited {
 	color: #B71C1C;
@@ -66,11 +67,7 @@ li {
 	margin: 0 2%;
 }
 
-img {
-	width: 35%;
-	height: auto;
-	border-radius: 20%;
-}
+
 
 .section-title h2 {
 	color: #55b0e6;
@@ -92,6 +89,13 @@ hr.dotted {
 
 hr.double {
 	border-top: 3px double #8c8b8b;
+}
+
+headerimg {
+	flex-grow: 3,0,0;
+  -webkit-flex-grow: 3, 0, 0;
+    width: auto;
+   
 }
 
 .btn-default {
@@ -117,7 +121,8 @@ hr.double {
 
 .header {
 	padding: 2%;
-    flex-grow: 2;
+    flex-shrink: 2;
+    -webkit-flex-shrink: 2;
 }
 
 /* Media Queries */
@@ -171,9 +176,3 @@ hr.double {
 	.ft {
 		margin-bottom: 16px;
 	}
-
-  
-  svg {
-  width: 33.32%;
-  float: left;
-}
