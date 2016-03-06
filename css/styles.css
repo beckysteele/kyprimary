@@ -1,0 +1,179 @@
+.svglogo {
+	width: 35%;
+    padding: 1rem;
+	margin-top: 2rem;
+    order: -1;
+    
+/*
+	background-image: asset-url('main-logo.png') no-repeat;
+	background-size: 100%;
+*/
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item{
+  margin: auto;
+}
+
+.actions {
+	padding: 1rem;
+}
+
+.field {
+	padding: 1rem;
+}
+
+
+
+/* Typography */
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300, 400, 600;
+	text-align: center;
+
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px, 0, 10px, 0;
+	color: #55b0e6;
+    font-size: 5em;	
+}
+
+h2 {
+/*	font-size: 4em;*/
+}
+
+h3 {
+/*	font-size: 3em;*/
+}
+
+a, ul.nav li a:visited {
+	color: #B71C1C;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	margin: 0 2%;
+}
+
+img {
+	width: 35%;
+	height: auto;
+	border-radius: 20%;
+}
+
+.section-title h2 {
+	color: #55b0e6;
+	margin: 0, 5%;
+    font-size: 3em;
+}
+
+.date {
+	color: #B71C1C;;
+}
+
+p, a {
+	font-size: 2em;
+}
+
+hr.dotted {
+	border-top: 1px dotted #8c8b8b;
+}
+
+hr.double {
+	border-top: 3px double #8c8b8b;
+}
+
+.btn-default {
+	background-color: #B71C1C;
+	color: #fff;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 1.5em;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+/* Content Sections*/
+
+.content-block {
+	display: inline-block;
+	margin: 2%;
+}
+
+.header {
+	padding: 2%;
+    flex-grow: 2;
+}
+
+/* Media Queries */
+
+@media (max-width: 100%) {
+	.jumbotron {
+		padding: 80px 0 80px 0;
+	}
+
+	.content {
+		padding-top: 190px;
+		}
+
+	.panel {
+	padding: 2rem;
+	}
+
+	./*ft-copy {
+		padding-top: 2rem;
+	}*/
+	.ft-copy {
+		width: auto;
+	}
+
+@media (max-width: 767px) {
+	.navbar {
+		min-height: 60px;
+	}
+	.main-logo {
+		width: 82px;
+		margin-top: 20px;
+	}
+	.jumbotron {
+		padding-top: 80px;
+		margin-top: 32px;
+		margin-bottom: 32px;
+	}
+
+	.container {
+		padding: 60px;
+		}
+
+	.panel {
+	padding: 1rem;
+	margin-top: 1rem;
+	}
+
+	.lead {
+		margin-bottom: 40px;
+	}
+	.ft {
+		margin-bottom: 16px;
+	}
+
+  
+  svg {
+  width: 33.32%;
+  float: left;
+}
