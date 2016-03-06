@@ -17,9 +17,35 @@
    flex-flow: row wrap;
 }
 
+.flex-container2{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  padding-bottom: 2em;
+}
+
 .item{
   margin: auto;
-  
+}
+
+
+.item1{
+  margin: auto;
+  order: -1;
+  width: 25%  
+}
+
+.item2{
+  margin: auto;
+  order: 1;
+  width: 25%  
+}
+
+.item3{
+  margin: auto;
+  order: 2;
+  width: 25%  
 }
 
 .actions {
@@ -30,45 +56,47 @@
 	padding: 1rem;
 }
 
-
-
 /* Typography */
 body{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100, 400, 800;
 	text-align: center;
-
 }
 
 h1 {
 	font-family: 'Rozha One', serif;
-	
 	color: #55b0e6;
     font-size: 4em;	
 }
 
 h2, h3 {
   font-family: 'Rozha One', serif;
-  color: white;
-/*	font-size: 4em;*/
+  color: #B71C1C;
+  font-size: 3em;
 }
-
 
 a, ul.nav li a:visited {
 	color: #B71C1C;
-
 }
 
 ul {
 	list-style-type: none;
 }
 
+
 li {
-	display: inline-block;
-	margin: 0 2%;
+    align-items: stretch;
+	margin: 3em;
 }
 
 .section-title h2 {
+	color: #B71C1C;
+	margin: 0, 5%;
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+.section-title h3 {
 	color: white;
 	margin: 0, 5%;
     font-size: 3em;
@@ -88,12 +116,8 @@ p2 {
     color: white;
 }
 
-hr.dotted {
-	border-top: 1px dotted #8c8b8b;
-}
-
-hr.double {
-	border-top: 3px double #8c8b8b;
+.presidential, img{
+  size: 35%;
 }
 
 headerimg {
@@ -132,12 +156,13 @@ headerimg {
 
 .content-block {
 	display: inline-block;
-	margin: 2%;
+	margin: 2em;
   
 }
 
 .contentblue {
   background-color: #55b0e6;
+  
 }
 
 .contentred {
@@ -188,7 +213,7 @@ headerimg {
 	}
 
 	.container {
-		padding: 60px;
+		padding: 1em;
 		}
 
 	.panel {
