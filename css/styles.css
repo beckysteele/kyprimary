@@ -42,13 +42,14 @@ body{
 
 h1 {
 	font-family: 'Rozha One', serif;
-	margin: 10px, 0, 10px, 0;
+	
 	color: #55b0e6;
     font-size: 4em;	
 }
 
 h2, h3 {
   font-family: 'Rozha One', serif;
+  color: white;
 /*	font-size: 4em;*/
 }
 
@@ -67,12 +68,11 @@ li {
 	margin: 0 2%;
 }
 
-
-
 .section-title h2 {
-	color: #55b0e6;
+	color: white;
 	margin: 0, 5%;
     font-size: 3em;
+    padding-top: 1em;
 }
 
 .date {
@@ -81,6 +81,11 @@ li {
 
 p, a {
 	font-size: 2em;
+}
+
+p2 {
+	font-size: 2em;
+    color: white;
 }
 
 hr.dotted {
@@ -104,12 +109,23 @@ headerimg {
 }
 
 .btn-xlarge {
-    padding: 18px 28px;
+    padding: 1em;
     font-size: 1.5em;
     line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
+    -webkit-border-radius: 1%;
+       -moz-border-radius: 1%;
+            border-radius: 1%;
+}
+
+.btn-xlargebl {
+    padding: 1em;
+    font-size: 1.5em;
+    line-height: normal;
+    -webkit-border-radius: 1%;
+       -moz-border-radius: 1%;
+            border-radius: 1%;
+    background-color: white;
+    color: #B71C1C;
 }
 
 /* Content Sections*/
@@ -117,6 +133,16 @@ headerimg {
 .content-block {
 	display: inline-block;
 	margin: 2%;
+  
+}
+
+.contentblue {
+  background-color: #55b0e6;
+}
+
+.contentred {
+  background-color: #B71C1C;
+  padding-bottom: 3em;
 }
 
 .header {
