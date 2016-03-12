@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Sam Gaskins",
+		"party": "Democratic",
+		"occupation": "Construction",
+		"area": "Hopkinsville, Kentucky",
+		"url": "http://samgaskinsforcongress.com/"
+	},
+	{
+		"name": "Tom Osborne",
+		"party": "Democratic",
+		"occupation": "Attorney",
+		"area": "Paducah, Kentucky",
+		"url": "http://apps.sos.ky.gov/elections/candidatefilings/statewide/default.aspx?cand=6195"
+	},
+	{
+		"name": "Jason Batts",
+		"party": "Republican",
+		"occupation": "Attorney",
+		"area": "Clinton, Kentucky",
+		"url": "http://www.jasonbatts.com/"
+	},
+	{
+		"name": "Miles Caughey Jr.",
+		"party": "Republican",
+		"occupation": "Not available",
+		"area": "Herndon, Kentucky",
+		"url": "http://apps.sos.ky.gov/elections/candidatefilings/statewide/default.aspx?cand=5983"
+	},
+	{
+		"name": "James Comer",
+		"party": "Republican",
+		"occupation": "Commissioner of Agriculture",
+		"area": "Frankfort, Kentucky",
+		"url": "http://jamescomer.com/"
+	},
+	{
+		"name": "Michael Pape",
+		"party": "Republican",
+		"occupation": "District Director for Ed Whitfield",
+		"area": "Hopkinsville, Kentucky",
+		"url": "http://mikepape.org/"
+	}
+]

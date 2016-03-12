@@ -10,6 +10,10 @@
 */
 }
 
+#container-fluid {
+	margin-bottom: 6%;
+}
+
 .flex-container{
   display: -webkit-flex;
   display: flex;
