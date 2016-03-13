@@ -1,71 +1,61 @@
 [
 	{
 		"name": "Jim Gray",
-		"party": "Democratic",
-		"occupation": "Mayor",
+		"party": "Democrat",
 		"area": "Lexington, Kentucky",
 		"url": "http://grayforkentucky.com/?video=skip"
 	},
 	{
 		"name": "Rory Houlihan",
-		"party": "Democratic",
-		"occupation": "Not available",
+		"party": "Democrat",
 		"area": "Winchester, Kentucky",
 		"url": "http://apps.sos.ky.gov/elections/candidatefilings/statewide/default.aspx?cand=6182"
 	},
 	{
 		"name": "Jeff Kender",
-		"party": "Democratic",
-		"occupation": "Kellogg Pikeville Plant",
+		"party": "Democrat",
 		"area": "Phelps, Kentucky",
 		"url": "http://www.kender4senate2016.com/"
 	},
 	{
 		"name": "Ron Leach",
-		"party": "Democratic",
-		"occupation": "Occupational Medicine Physician Assistant",
+		"party": "Democrat",
 		"area": "Lexington, Kentucky",
 		"url": "http://www.ronleach4ky.com/"
 	},
 	{
 		"name": "Tom Recktenwald",
-		"party": "Democratic",
-		"occupation": "Not available",
+		"party": "Democrat",
 		"area": "Louisville, Kentucky",
 		"url": "https://www.facebook.com/trforsenate/"
 		},
 	{
 		"name": "Grant Short",
-		"party": "Democratic",
-		"occupation": "Pilot, Entrepreneur, Musician",
+		"party": "Democrat",
 		"area": "Owensboro, Kentucky",
 		"url": "http://www.grant4senate.com/"
 		},
 	{
 		"name": "Sellus Wilder",
-		"party": "Democratic",
-		"occupation": "Wilder Productions, LLC",
+		"party": "Democrat",
 		"area": "Frankfort, Kentucky",
 		"url": "http://wilderforsenate.com/getinvolved/"
 		},
 	{
 		"name": "Rand Paul",
 		"party": "Republican",
-		"occupation": "United State Senator",
 		"area": "Bowling Green, Kentucky",
 		"url": "https://www.randpaul.com/"
 		},
 	{
 		"name": "James Gould",
 		"party": "Republican",
-		"occupation": "Not available",
 		"area": "Lexington, Kentucky",
 		"url": "http://apps.sos.ky.gov/elections/candidatefilings/statewide/default.aspx?cand=5872"
 		},
 	{
 		"name": "Stephen Howard Slaughter",
 		"party": "Republican",
-		"occupation": "Not available",
 		"area": "Louisville, Kentucky",
 		"url": "http://apps.sos.ky.gov/elections/candidatefilings/statewide/default.aspx?cand=6027"
 		}
