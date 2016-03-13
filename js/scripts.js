@@ -49,3 +49,32 @@ win.scroll(function(event) {
   });
   
 });
+
+$("a[href='#collapse-senate']").click(function(){
+  $.getJSON('us-senate.json', function(data) {
+      //console.log("Senate getting clicked");
+      //if (data){console.log("There is data")};
+            var items = [];
+              $.each( data, function( key, val ) {
+                  items.push( "<a href='" + val.url + "'><h2 id='" + key.name + "'>" + val.name + "</h2></a>" );
+                  items.push( "<li>" + val.party + " from " + val.area + "</li>" );
+                  //items.push( "<li>Area: " + val.area + "</li>" );
+              });
+            $(".us-senate").append('<div class="collapse" id="collapse-senate"><div class="well">' + items.join("") + '</div></div>');
+
+  });
+});
+
+
+
+$("a[href='#collapse-house']").click(function(){
+  $.getJSON('us-house.json', function(data) {
+        console.log("House getting clicked");
+            var items = [];
+              $.each( data, function( key, val ) {
+                  items.push( "<a href='" + val.url + "'><h2 id='" + key.name + "'>" + val.name + "</h2></a>" );
+                  items.push( "<li>" + val.party + " from " + val.area + "</li>" );
+              });
+            $(".us-house").append('<div class="collapse" id="collapse-house"><div class="well">' + items.join("") + '</div></div>');
+  });
+});
