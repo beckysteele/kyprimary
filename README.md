@@ -27,11 +27,11 @@ POP UP POLLING PLACES - POP UP EVENTS/VIRTUAL EVENTS
 
 
 The Team:
-* Jean H. (Business)
-* Luke (dev)
-* Carly Y. (artist)
-* Bethany
-* Tina B.
-* Margeaux S.
-* Becky S.
-* Greg C.
+* Becky S. @beckysteele (Lead)
+* Margeaux S. @cheapwebmonkey (Lead)
+* Jean H. (CodeAcross info gathering)
+* Luke (CodeAcross info gathering)
+* Carly Y. (CodeAcross info gathering)
+* Bethany P. (CodeAcross info gathering)
+* Tina B. (CodeAcross info gathering)
+* Greg C. (CodeAcross info gathering)
