@@ -93,6 +93,19 @@ li {
 	margin: 3em;
 }
 
+.candidate-block {
+	display: inline-block;
+	margin: 2%;
+
+}
+
+.candidate-block li {
+	margin: 0;
+	list-style: none;
+	font-size: 1.5em;
+}
+
+
 .section-title h2 {
 	color: #B71C1C;
 	margin: 0, 5%;
