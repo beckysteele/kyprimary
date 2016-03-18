@@ -65,6 +65,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100, 400, 800;
 	text-align: center;
+  
 }
 
 h1 {
@@ -73,10 +74,22 @@ h1 {
     font-size: 4em;	
 }
 
-h2, h3 {
+h2 {
   font-family: 'Rozha One', serif;
   color: #B71C1C;
   font-size: 3em;
+}
+
+h3 {
+  font-family: 'Rozha One', serif;
+  color: #FFFFFF;
+  font-size: 3em;
+}
+
+h4, .panel-title {
+	font-family: 'Rozha One', serif;
+	color: #55b0e6;
+    font-size: 2.25em;	
 }
 
 a, ul.nav li a:visited {
@@ -110,28 +123,30 @@ li {
 	color: #B71C1C;
 	margin: 0, 5%;
     font-size: 3em;
-    padding-top: 1em;
+    
 }
 
 .section-title h3 {
 	color: white;
 	margin: 0, 5%;
-    font-size: 3em;
-    padding-top: 1em;
+    
 }
 
 .date {
 	color: #B71C1C;;
 }
 
-p, a {
-	font-size: 2em;
+p {
+	font-size: 1.5em;
 }
 
 p2 {
-	font-size: 2em;
+	font-size: 1.5em;
     color: white;
+    margin-top: 20px;
 }
+
+
 
 .presidential, img{
   size: 35%;
@@ -184,7 +199,7 @@ headerimg {
 
 .contentred {
   background-color: #B71C1C;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
 }
 
 .header {
@@ -203,10 +218,6 @@ headerimg {
 	.content {
 		padding-top: 190px;
 		}
-
-	.panel {
-	padding: 2rem;
-	}
 
 	./*ft-copy {
 		padding-top: 2rem;
@@ -238,6 +249,11 @@ headerimg {
 	margin-top: 1rem;
 	}
 
+  .panel-body{
+    font-size: 1.25rem;
+  }
+  
+  
 	.lead {
 		margin-bottom: 40px;
 	}
