@@ -1,5 +1,5 @@
 .svglogo {
-	width: 35%;
+	width: 25%;
     padding: 1rem;
 	margin-top: 2rem;
     order: -1;
@@ -10,46 +10,54 @@
 */
 }
 
+.headerimg {
+  width: 50%;
+  flex-shrink: 1;
+}
+
 #container-fluid {
-	margin-bottom: 6%;
+	margin-bottom: 1%;
 }
 
 .flex-container{
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
-   flex-flow: row wrap;
+ -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding: 1%;
 }
 
 .flex-container2{
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: column wrap;
+ -webkit-flex-flow: column wrap;
   flex-flow: column wrap;
-  padding-bottom: 2em;
+  padding: 1%;
 }
 
 .item{
   margin: auto;
+  width:auto;
 }
 
 
 .item1{
   margin: auto;
   order: -1;
-  width: 25%  
+  width: 30%  
 }
 
 .item2{
-  margin: auto;
   order: 1;
-  width: 25%  
+  width: auto%;
+  
 }
 
 .item3{
+  align-items: center;
+  order: 1;
   margin: auto;
-  order: 2;
-  width: 25%  
+  width: auto;  
 }
 
 .actions {
@@ -121,7 +129,7 @@ li {
 
 .section-title h2 {
 	color: #B71C1C;
-	margin: 0, 5%;
+
     font-size: 3em;
     
 }
@@ -199,7 +207,8 @@ headerimg {
 
 .contentred {
   background-color: #B71C1C;
-  padding-bottom: 1em;
+  padding: 1em; 
+  border-radius: 5px;
 }
 
 .header {
