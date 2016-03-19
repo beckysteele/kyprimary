@@ -1,5 +1,5 @@
 .svglogo {
-	width: 35%;
+	width: 25%;
     padding: 1rem;
 	margin-top: 2rem;
     order: -1;
@@ -10,46 +10,57 @@
 */
 }
 
+.headerimg {
+  width: 50%;
+  flex-shrink: 1;
+}
+
 #container-fluid {
-	margin-bottom: 6%;
+	margin-bottom: 1%;
 }
 
 .flex-container{
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
-   flex-flow: row wrap;
+ -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding: 1%;
 }
 
 .flex-container2{
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: column wrap;
+ -webkit-flex-flow: column wrap;
   flex-flow: column wrap;
-  padding-bottom: 2em;
+  padding: 1%;
 }
 
 .item{
   margin: auto;
+  width: auto;
+
 }
 
 
 .item1{
   margin: auto;
   order: -1;
-  width: 25%  
+  width: auto;
 }
 
 .item2{
-  margin: auto;
   order: 1;
-  width: 25%  
+  width: auto%;
+  
 }
 
 .item3{
+  /*align-items: center;*/
+  order: 1;
   margin: auto;
-  order: 2;
-  width: 25%  
+  width: auto; 
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .actions {
@@ -60,11 +71,16 @@
 	padding: 1rem;
 }
 
+.tabContent {
+  padding:20px;
+}
+
 /* Typography */
 body{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100, 400, 800;
 	text-align: center;
+  
 }
 
 h1 {
@@ -73,14 +89,39 @@ h1 {
     font-size: 4em;	
 }
 
-h2, h3 {
+h2 {
   font-family: 'Rozha One', serif;
   color: #B71C1C;
   font-size: 3em;
 }
 
+h3 {
+  font-family: 'Rozha One', serif;
+  color: #FFFFFF;
+  font-size: 3em;
+}
+
+h4, .panel-title {
+	font-family: 'Rozha One', serif;
+	color: #55b0e6;
+    font-size: 2.25em;	
+}
+
+.panel-primary .panel-heading {
+	background-color: #55b0e6;
+	border-color: #55b0e6;
+}
+
 a, ul.nav li a:visited {
 	color: #B71C1C;
+}
+
+.panel-primary .panel-heading a {
+	color: #fff;
+}
+
+a span {
+	font-size: 1.5em;
 }
 
 ul {
@@ -108,33 +149,35 @@ li {
 
 .section-title h2 {
 	color: #B71C1C;
-	margin: 0, 5%;
+
     font-size: 3em;
-    padding-top: 1em;
+    
 }
 
 .section-title h3 {
 	color: white;
 	margin: 0, 5%;
-    font-size: 3em;
-    padding-top: 1em;
+    
 }
 
 .date {
 	color: #B71C1C;;
 }
 
-p, a {
-	font-size: 2em;
+p {
+	font-size: 1.5em;
 }
 
 p2 {
-	font-size: 2em;
+	font-size: 1.5em;
     color: white;
+    margin-top: 20px;
 }
 
-.presidential, img{
-  size: 35%;
+
+
+.presidential, img {
+  width: 99%;
 }
 
 headerimg {
@@ -184,7 +227,8 @@ headerimg {
 
 .contentred {
   background-color: #B71C1C;
-  padding-bottom: 3em;
+  padding: 1em; 
+  border-radius: 5px;
 }
 
 .header {
@@ -203,10 +247,6 @@ headerimg {
 	.content {
 		padding-top: 190px;
 		}
-
-	.panel {
-	padding: 2rem;
-	}
 
 	./*ft-copy {
 		padding-top: 2rem;
@@ -238,6 +278,11 @@ headerimg {
 	margin-top: 1rem;
 	}
 
+  .panel-body{
+    font-size: 1.25rem;
+  }
+  
+  
 	.lead {
 		margin-bottom: 40px;
 	}

@@ -50,32 +50,24 @@ win.scroll(function(event) {
   
 });
 
-$("a[href='#collapse-senate']").click(function(){
   $.getJSON('us-senate.json', function(data) {
             var items = [];
               $.each( data, function( key, val ) {
                   items.push( "<div class='candidate-block'>");
-                  items.push( "<a href='" + val.url + "'>" + val.name + "</a>");
+                  items.push( "<a href='" + val.url + "'><span>" + val.name + "</span></a>");
                   items.push( "<li>" + val.party + " (" + val.area + ")</li>");
                   items.push("</div>");
               });
             $(".us-senate").append('<div class="collapse" id="collapse-senate"><div class="well">' + items.join("") + '</div></div>');
-            $("a").attr("aria-expanded","true");
   });
-});
 
-
-
-$("a[href='#collapse-house']").click(function(){
   $.getJSON('us-house.json', function(data) {
             var items = [];
               $.each( data, function( key, val ) {
                   items.push( "<div class='candidate-block'>");
-                  items.push( "<a href='" + val.url + "'>" + val.name + "</a>");
+                  items.push( "<a href='" + val.url + "'><span>" + val.name + "</span></a>");
                   items.push( "<li>" + val.party + " (" + val.area + ")</li>" );
                   items.push( "</div>");
               });
             $(".us-house").append('<div class="collapse" id="collapse-house"><div class="well">' + items.join("") + '</div></div>');
-            $("a").attr("aria-expanded","true");
   });
-});
