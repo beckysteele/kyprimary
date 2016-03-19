@@ -38,13 +38,14 @@
 .item{
   margin: auto;
   width:auto;
+
 }
 
 
 .item1{
   margin: auto;
   order: -1;
-  width: 30%  
+  width: auto;
 }
 
 .item2{
@@ -57,7 +58,9 @@
   align-items: center;
   order: 1;
   margin: auto;
-  width: auto;  
+  width: auto; 
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .actions {
@@ -66,6 +69,10 @@
 
 .field {
 	padding: 1rem;
+}
+
+.tabContent {
+  padding:20px;
 }
 
 /* Typography */
@@ -156,8 +163,8 @@ p2 {
 
 
 
-.presidential, img{
-  size: 35%;
+.presidential, img {
+  width: 99%;
 }
 
 headerimg {
