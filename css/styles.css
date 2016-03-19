@@ -10,11 +10,6 @@
 */
 }
 
-.headerimg {
-  width: 50%;
-  flex-shrink: 1;
-}
-
 /*Date Tiles*/
 #tile3 .slide-front {
 	color: #B71C1C;
@@ -109,8 +104,8 @@ body{
 
 h1 {
 	font-family: 'Rozha One', serif;
-	color: #55b0e6;
-    font-size: 4em;	
+	color: #fff;
+    font-size: 6em;	
 }
 
 h2 {
@@ -257,9 +252,13 @@ headerimg {
 }
 
 .header {
-	padding: 2%;
     flex-shrink: 2;
-    -webkit-flex-shrink: 2;
+    background-color: #55b0e6;
+}
+
+.header p {
+	font-size: 2em;
+	color: #fff;
 }
 
 /* Media Queries */
@@ -306,7 +305,6 @@ headerimg {
   .panel-body{
     font-size: 1.25rem;
   }
-  
   
 	.lead {
 		margin-bottom: 40px;
