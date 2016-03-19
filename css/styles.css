@@ -193,13 +193,18 @@ p2 {
     margin-top: 20px;
 }
 
-
+.social {
+	text-align: left;
+	width: 35%;
+	height: auto;
+	padding: 0 5%;
+}
 
 .presidential, img {
   width: 99%;
 }
 
-headerimg {
+.headerimg {
 	flex-grow: 3,0,0;
   -webkit-flex-grow: 3, 0, 0;
     width: auto;
@@ -241,9 +246,11 @@ headerimg {
 
 .contentblue,
 .contentblue h2 {
+	padding: 5%;
   background-color: #55b0e6;
   color: #fff;
 }
+
 
 .contentred {
   background-color: #B71C1C;
