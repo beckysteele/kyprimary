@@ -6,15 +6,18 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/MetroJs.lt.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="css/styles.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/animations.css">
+    
     <link href='https://fonts.googleapis.com/css?family=Rozha+One|Raleway:400,100,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=' rel='stylesheet' type='text/css'>
   
 </head>
 
 <body>	
+
+  <!--Facebook SDK-->
 
   <div class= "flex-container">
     <div class ="svglogo item">
@@ -23,35 +26,51 @@
       </div>
       
       <div class="header item">
-      <h1>Kentucky Primary</h1>
-      <div class ="item">
-	  	<a class="btn btn-default btn-xlarge" href="#when" role="button">When</a>
-	  	<a class="btn btn-default btn-xlarge" href="#how" role="button">How</a>
-	  	<a class="btn btn-default btn-xlarge" href="#who" role="button">Who</a>
-	  	<a class="btn btn-default btn-xlarge" href="#where" role="button">Where</a>
-	  	<a class="btn btn-default btn-xlarge" href="#share" role="button">Share</a>
-  	 </div>
-    </div> 
-  </div>
-    </div> 
+          <h1>Kentucky 2016 Primary</h1>
+          <div class ="item">
+      	  	<a class="btn btn-default btn-xlarge" href="#when" role="button">When</a>
+      	  	<a class="btn btn-default btn-xlarge" href="#how" role="button">How</a>
+      	  	<a class="btn btn-default btn-xlarge" href="#who" role="button">Who</a>
+      	  	<a class="btn btn-default btn-xlarge" href="#where" role="button">Where</a>
+      	  	<a class="btn btn-default btn-xlarge" href="#share" role="button">Share</a>
+    	   </div>
+      </div> 
+    </div>
+  </div> 
+
   <div class= flex-container>
      <div class="section-title item1">
   		<a name="when"></a>
-  		<h2>Important Dates</h2>
-  
-  			<p>First Time Registration Deadline:</p>
-  			<p class="date">Monday, April 18, 2016</p>
-  	
-            <p>Absentee Ballot Request:</p>
-            <p class="date">Tuesday, May 10, 2016</p>
-
-            <p>Absentee Ballot Return:</p>
-            <p class="date">Tuesday, May 17, 2016 by 6:00 pm</p>
-          
-  
-  			<p>Kentucky Primary Election:</p>
-  			<p class="date">Tuesday, May 17, 2016</p>
-  
+      <h2>Important Dates</h2>
+      <div class="tiles red">
+        <div class="live-tile blue" id="tile3" data-mode="slide" data-stops="100%" data-stack="true">  
+          <div class="tile-date">
+            <p>Monday, April 18</p>   
+            <span class="tile-title">(Hover)</span>
+          </div>
+          <div class="tile-detail">
+            <p>First Time Voter Registration Deadline</p>            
+          </div>
+        </div>
+        <div class="live-tile blue" id="tile3" data-mode="slide" data-stops="100%" data-stack="true">  
+          <div class="tile-date">
+            <p>Tuesday, May 10</p>   
+            <span class="tile-title">(Hover)</span>
+          </div>
+          <div class="tile-detail">
+            <p>Absentee Ballot Request</p>            
+          </div>
+        </div>        
+        <div class="live-tile blue" id="tile3" data-mode="slide" data-stops="100%" data-stack="true">  
+          <div class="tile-date">
+            <p>Tuesday, May 17</p>   
+            <span class="tile-title">(Hover)</span>
+          </div>
+          <div class="tile-detail">
+            <p>Election Day! Absentee Ballots Due by 6:00pm</p>            
+          </div>
+        </div>           
+      </div>
   	</div>
  
   	
@@ -108,7 +127,7 @@
             </div>
         </div>
     </div>
-	<p2><strong>Note:</strong> Click on the linked heading text to expand or collapse accordion panels.</p2>
+	<p2><strong>Note:</strong> Click the question to see the answer.</p2>
 
   		
   </div>
@@ -177,6 +196,7 @@
  
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/MetroJs.lt.js"></script>
     <script src="js/scripts.js"></script>
 
 </body>

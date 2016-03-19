@@ -15,6 +15,30 @@
   flex-shrink: 1;
 }
 
+/*Date Tiles*/
+#tile3 .slide-front {
+	color: #B71C1C;
+	background-color: #fff;
+}
+
+#tile3 .slide-back {
+	color: #fff;
+	background-color: #55b0e6;
+}
+
+#tile3 .tile-date {
+	font-size: 2.5em;
+}
+
+#tile3 .tile-detail {
+	font-size: 1.5em;
+	padding-top: 5%;
+}
+
+#tile3 .tile-title {
+	font-size: 0.5em;
+}
+
 #container-fluid {
 	margin-bottom: 1%;
 }
@@ -220,9 +244,10 @@ headerimg {
   
 }
 
-.contentblue {
+.contentblue,
+.contentblue h2 {
   background-color: #55b0e6;
-  
+  color: #fff;
 }
 
 .contentred {
