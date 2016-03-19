@@ -37,7 +37,7 @@
 
 .item{
   margin: auto;
-  width:auto;
+  width: auto;
 
 }
 
@@ -55,7 +55,7 @@
 }
 
 .item3{
-  align-items: center;
+  /*align-items: center;*/
   order: 1;
   margin: auto;
   width: auto; 
@@ -107,8 +107,21 @@ h4, .panel-title {
     font-size: 2.25em;	
 }
 
+.panel-primary .panel-heading {
+	background-color: #55b0e6;
+	border-color: #55b0e6;
+}
+
 a, ul.nav li a:visited {
 	color: #B71C1C;
+}
+
+.panel-primary .panel-heading a {
+	color: #fff;
+}
+
+a span {
+	font-size: 1.5em;
 }
 
 ul {
