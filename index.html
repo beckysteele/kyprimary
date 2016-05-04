@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kentucky Primary 2016</title>
+  <title>Kentucky Primary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="All things Kentucky Primary Election, all in one place.">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/MetroJs.lt.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="css/styles.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/animations.css">
+    
     <link href='https://fonts.googleapis.com/css?family=Rozha+One|Raleway:400,100,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=' rel='stylesheet' type='text/css'>
     <script type="text/javascript">var switchTo5x=true;</script>
@@ -19,42 +22,57 @@
 
 <body>	
 
-  <div class= "flex-container">
-    <div class ="svglogo item">
-     <div class ="headerimg item">
-        <img src = "img/votenow.png" alt ="Vote Now sign with hands">
-      </div>
-      
-      <div class="header item">
-      <h1>Kentucky Primary</h1>
-      <div class ="item">
-	  	<a class="btn btn-default btn-xlarge" href="#when" role="button">When</a>
-	  	<a class="btn btn-default btn-xlarge" href="#how" role="button">How</a>
-	  	<a class="btn btn-default btn-xlarge" href="#who" role="button">Who</a>
-	  	<a class="btn btn-default btn-xlarge" href="#where" role="button">Where</a>
-	  	<a class="btn btn-default btn-xlarge" href="#share" role="button">Share</a>
-  	 </div>
-    </div> 
-  </div>
-    </div> 
-  <div class= flex-container>
+  <!--Facebook SDK-->
+
+  <div class= "header flex-container2">
+          <h1>KY Primary</h1>
+          <p>The Kentucky Primary Election, all in one place.</p>
+          <div class ="item">
+      	  	<a class="btn btn-default btn-xlarge" href="#when" role="button" alt="Important Dates">When</a>
+      	  	<a class="btn btn-default btn-xlarge" href="#how" role="button" alt="How to Register">How</a>
+      	  	<a class="btn btn-default btn-xlarge" href="#who" role="button" alt="Who is Running">Who</a>
+      	  	<a class="btn btn-default btn-xlarge" href="#where" role="button" alt="Where to Vote">Where</a>
+      	  	<!--<a class="btn btn-default btn-xlarge" href="#share" role="button">Share</a>-->
+    	   </div>
+         <div class="item3">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.google.com/" target="_blank"><img src="img/facebook.png" class="social" alt="share to facebook"></a>
+            <a href="https://twitter.com/home?status=https%3A//www.google.com/" target="_blank"><img src="img/twitter.png" class="social" alt="share to twitter"></a>
+          </div>
+    </div>
+
+  <div class="flex-container">
      <div class="section-title item1">
   		<a name="when"></a>
-  		<h2>Important Dates</h2>
-  
-  			<p>First Time Registration Deadline:</p>
-  			<p class="date">Monday, April 18, 2016</p>
-  	
-            <p>Absentee Ballot Request:</p>
-            <p class="date">Tuesday, May 10, 2016</p>
-
-            <p>Absentee Ballot Return:</p>
-            <p class="date">Tuesday, May 17, 2016 by 6:00 pm</p>
-          
-  
-  			<p>Kentucky Primary Election:</p>
-  			<p class="date">Tuesday, May 17, 2016</p>
-  
+      <h2>Important Dates</h2>
+      <div class="tiles red">
+        <div class="live-tile blue" id="tile3" data-mode="slide" data-stops="100%" data-stack="true">  
+          <div class="tile-date">
+            <p>Monday, April 18</p>   
+            <span class="tile-title">(Hover)</span>
+          </div>
+          <div class="tile-detail">
+            <p>First Time Voter Registration Deadline</p>            
+          </div>
+        </div>
+        <div class="live-tile blue" id="tile3" data-mode="slide" data-stops="100%" data-stack="true">  
+          <div class="tile-date">
+            <p>Tuesday, May 10</p>   
+            <span class="tile-title">(Hover)</span>
+          </div>
+          <div class="tile-detail">
+            <p>Absentee Ballot Request</p>            
+          </div>
+        </div>        
+        <div class="live-tile blue" id="tile3" data-mode="slide" data-stops="100%" data-stack="true">  
+          <div class="tile-date">
+            <p>Tuesday, May 17</p>   
+            <span class="tile-title">(Hover)</span>
+          </div>
+          <div class="tile-detail">
+            <p>Election Day! Absentee Ballots Due by 6:00pm</p>            
+          </div>
+        </div>           
+      </div>
   	</div>
  
   	
@@ -111,55 +129,45 @@
             </div>
         </div>
     </div>
-	<p2><strong>Note:</strong> Click on the linked heading text to expand or collapse accordion panels.</p2>
-
-  		
-  </div>
-   
-    </div>
+	<p2><strong>Note:</strong> Click the question to see the answer.</p2>
+</div>
+</div>
    
     <div id="container-fluid">
   	
   		<a name="who"></a>
   		
-	  		<h3>Presidential Candidates</h3>
+	  		<h2>Who is Running</h2>
               
         <div class="row come-in">
-            <div class="col-xlg-3 col-md-3 col-sm-6 col-xs-12">
-              <div class="panel panel-default">
-                <div class="panel-heading"><a href="https://www.hillaryclinton.com/" target="_blank">Hillary Clinton</a></div>
-	  			<div class="panel-body"><a href="https://www.hillaryclinton.com/" target="_blank"><img class="card-img-top" src="img/clinton.svg"></a></div>
+            <div class="col-xlg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="panel panel-primary">
+                <div class="panel-heading"><!--<a href="https://www.hillaryclinton.com/" target="_blank"><span>Hillary Clinton</span></a></div>--><a href="https://berniesanders.com/?nosplash=true/" target="_blank"><span>Bernie Sanders</span></a></div>
+	  			      <div class="panel-body"><a href="https://berniesanders.com/?nosplash=true/" target="_blank"><img class="" src="img/sanders.svg"></a></div>
               </div>
             </div>
           
-        <div class="col-xlg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-xlg-4 col-md-4 col-sm-6 col-xs-12">
             <div class="panel panel-primary fadeInDown">
-              <div class="panel-heading"><a href="https://berniesanders.com/?nosplash=true/" target="_blank">Bernie Sanders</a></div>
-              <div class="panel-body"><a href="https://berniesanders.com/?nosplash=true/" target="_blank"><img class="" src="img/sanders.svg"></a></div>
-            </div>
-        </div>
-        
-          <div class="col-xlg-3 col-md-3 col-sm-6 col-xs-12">
-            <div class="panel panel-default fadeInDown">
-              <div class="panel-heading"><a href="https://martinomalley.com/" target="_blank">Martin O'Malley</a></div>
-              <div class="panel panel-body"><a href="https://martinomalley.com/" target="_blank"><img class="" src="img/omalley.svg"></a></div>
+              <div class="panel-heading"><a href="https://www.hillaryclinton.com/" target="_blank"><span>Hillary Clinton</span></a></div>
+              <div class="panel-body"><a href="https://www.hillaryclinton.com/" target="_blank"><img class="card-img-top" src="img/clinton.svg"></a></div>
             </div>
         </div>
           
-        <div class="col-xlg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-xlg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="panel panel-primary">
-            <div class="panel-heading"><a href="https://rocky2016.com" target="_blank">Roque De La Fuente</a></div>
-            <div class="panel panel-body"><a href="https://rocky2016.com" target="_blank"><img class="" src="img/roque.svg"></a></div>
+            <div class="panel-heading"><a href="https://rocky2016.com" target="_blank"><span>Roque De La Fuente</span></a></div>
+            <div class="panel-body"><a href="https://rocky2016.com" target="_blank"><img class="" src="img/roque.svg"></a></div>
           </div>
         </div>              
       </div>
     </div> 
     <div class="flex-container">
     <div class="us-senate item3">
-      <a class="btn btn-default btn-xlarge" role="button" data-toggle="collapse" href="#collapse-senate" aria-expanded="false" aria-controls="collapse">USA Senate Candidates</a>
+      <a class="btn btn-default btn-xlarge" role="button" data-toggle="collapse" href="#collapse-senate" aria-expanded="false" aria-controls="collapse-senate">US Senate Candidates</a>
     </div>
     <div class="us-house item3">
-      <a class="btn btn-default btn-xlarge" role="button" data-toggle="collapse" href="#collapse-house" aria-expanded="false" aria-controls="collapse">USA House Candidates</a>
+      <a class="btn btn-default btn-xlarge" role="button" data-toggle="collapse" href="#collapse-house" aria-expanded="false" aria-controls="collapse-house">US House Candidates</a>
     </div>
     <div class ="item3">
       <a class="btn btn-default btn-xlarge" href="http://apps.sos.ky.gov/elections/candidatefilings/statewide/default.aspx?id=11" target="_blank" role="button">KY Senate Candidates</a>
@@ -171,7 +179,7 @@
 
   	<div class="contentblue flex-container2">
   		<a name="where"></a>
-  		<h2 class ="item1">Where Do I Vote?</h2>
+  		<h2>Where to Vote</h2>
       <div>
   		<a class="btn btn-default btn-xlarge item" href="https://vrsws.sos.ky.gov/vic/" target="_blank" role="button">Where Do I Vote?</a>
   	 </div>
@@ -189,6 +197,7 @@
       var options={ "publisher": "49f0528a-f9a7-4435-8a81-3ceab1dd5fbd", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "buffer", "tumblr", "whatsapp", "flipboard", "pocket", "googleplus", "reddit", "email"]}};
       var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
     </script>
+    <script src="js/MetroJs.lt.js"></script>
     <script src="js/scripts.js"></script>
 
 </body>

@@ -10,9 +10,28 @@
 */
 }
 
-.headerimg {
-  width: 50%;
-  flex-shrink: 1;
+/*Date Tiles*/
+#tile3 .slide-front {
+	color: #B71C1C;
+	background-color: #fff;
+}
+
+#tile3 .slide-back {
+	color: #fff;
+	background-color: #55b0e6;
+}
+
+#tile3 .tile-date {
+	font-size: 2.5em;
+}
+
+#tile3 .tile-detail {
+	font-size: 1.5em;
+	padding-top: 5%;
+}
+
+#tile3 .tile-title {
+	font-size: 0.5em;
 }
 
 #container-fluid {
@@ -37,7 +56,7 @@
 
 .item{
   margin: auto;
-  width:auto;
+  width: auto;
 
 }
 
@@ -55,7 +74,7 @@
 }
 
 .item3{
-  align-items: center;
+  /*align-items: center;*/
   order: 1;
   margin: auto;
   width: auto; 
@@ -85,8 +104,8 @@ body{
 
 h1 {
 	font-family: 'Rozha One', serif;
-	color: #55b0e6;
-    font-size: 4em;	
+	color: #fff;
+    font-size: 6em;	
 }
 
 h2 {
@@ -107,8 +126,21 @@ h4, .panel-title {
     font-size: 2.25em;	
 }
 
+.panel-primary .panel-heading {
+	background-color: #55b0e6;
+	border-color: #55b0e6;
+}
+
 a, ul.nav li a:visited {
 	color: #B71C1C;
+}
+
+.panel-primary .panel-heading a {
+	color: #fff;
+}
+
+a span {
+	font-size: 1.5em;
 }
 
 ul {
@@ -161,13 +193,18 @@ p2 {
     margin-top: 20px;
 }
 
-
+.social {
+	text-align: left;
+	width: 35%;
+	height: auto;
+	padding: 0 5%;
+}
 
 .presidential, img {
   width: 99%;
 }
 
-headerimg {
+.headerimg {
 	flex-grow: 3,0,0;
   -webkit-flex-grow: 3, 0, 0;
     width: auto;
@@ -207,10 +244,13 @@ headerimg {
   
 }
 
-.contentblue {
+.contentblue,
+.contentblue h2 {
+	padding: 5%;
   background-color: #55b0e6;
-  
+  color: #fff;
 }
+
 
 .contentred {
   background-color: #B71C1C;
@@ -219,9 +259,13 @@ headerimg {
 }
 
 .header {
-	padding: 2%;
     flex-shrink: 2;
-    -webkit-flex-shrink: 2;
+    background-color: #55b0e6;
+}
+
+.header p {
+	font-size: 2em;
+	color: #fff;
 }
 
 /* Media Queries */
@@ -268,7 +312,6 @@ headerimg {
   .panel-body{
     font-size: 1.25rem;
   }
-  
   
 	.lead {
 		margin-bottom: 40px;
