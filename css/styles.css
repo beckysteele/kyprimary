@@ -30,13 +30,22 @@
 	padding-top: 5%;
 }
 
+.passed {
+	text-decoration: line-through;
+}
+
 #tile3 .tile-title {
 	font-size: 0.5em;
 }
 
 #container-fluid {
-	margin-bottom: 1%;
+	margin-bottom: 0%;
 }
+
+#container-fluid h2 {
+	padding: 3%;
+}
+
 
 .flex-container{
   display: -webkit-flex;
@@ -51,7 +60,8 @@
   display: flex;
  -webkit-flex-flow: column wrap;
   flex-flow: column wrap;
-  padding: 1%;
+  padding: 3%;
+  margin-bottom: 0%;
 }
 
 .item{
@@ -64,7 +74,7 @@
 .item1{
   margin: auto;
   order: -1;
-  width: auto;
+  width: 75%;
 }
 
 .item2{
@@ -109,6 +119,7 @@ h1 {
 }
 
 h2 {
+	margin-top: 10px;
   font-family: 'Rozha One', serif;
   color: #B71C1C;
   font-size: 3em;
@@ -246,7 +257,7 @@ p2 {
 
 .contentblue,
 .contentblue h2 {
-	padding: 5%;
+	padding: 3%;
   background-color: #55b0e6;
   color: #fff;
 }
