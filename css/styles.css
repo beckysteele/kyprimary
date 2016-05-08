@@ -291,6 +291,9 @@ p2 {
 
 @media only screen and (max-width: 767px) {
 
+	body {
+		font-size: 1.1em;
+	}
 
 	.nav-buttons {
 		display: none;
