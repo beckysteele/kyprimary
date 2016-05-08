@@ -13,10 +13,10 @@ permissions:
        - file
 hooks:
    BeforeInstall:
-    - location: 
-      runas: 
-    - location: 
-      runas: 
-   AfterInstall:
-    - location: 
-      runas:
+    - location: codedeploy/installapache.sh 
+      runas: root
+    - location: codedeploy/startapache.sh
+      runas: root
+   AfterInstall: 
+    - location: codedeploy/restartapache.sh
+      runas: root
