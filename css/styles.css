@@ -4,10 +4,6 @@
 	margin-top: 2rem;
     order: -1;
     
-/*
-	background-image: asset-url('main-logo.png') no-repeat;
-	background-size: 100%;
-*/
 }
 
 /*Date Tiles*/
@@ -247,6 +243,12 @@ p2 {
     color: #B71C1C;
 }
 
+.dropdown-menu li a {
+	color: #B71C1C;
+	font-size: 1.5em;
+	/*font-weight: bold;*/
+}
+
 /* Content Sections*/
 
 .content-block {
@@ -296,6 +298,9 @@ p2 {
 	.ft-copy {
 		width: auto;
 	}
+/*	.item1 {
+		width: 75%;
+	}*/
 
 @media (max-width: 767px) {
 	.navbar {
@@ -330,3 +335,16 @@ p2 {
 	.ft {
 		margin-bottom: 16px;
 	}
+
+/*	.item1 {
+		width: 75%;
+	}*/
+}
+
+/*@media (max-width: 450px){
+	.item1 {
+		width: 100%;
+	}
+
+}*/
+
