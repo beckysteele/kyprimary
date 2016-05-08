@@ -283,26 +283,19 @@ p2 {
 
 /* Media Queries */
 
-@media (max-width: 100%) {
-	.jumbotron {
-		padding: 80px 0 80px 0;
+@media only screen and (min-width: 768px){
+	.dropdown {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+
+	.nav-buttons {
+		display: none;
 	}
 
-	.content {
-		padding-top: 190px;
-		}
-
-	./*ft-copy {
-		padding-top: 2rem;
-	}*/
-	.ft-copy {
-		width: auto;
-	}
-/*	.item1 {
-		width: 75%;
-	}*/
-
-@media (max-width: 767px) {
 	.navbar {
 		min-height: 60px;
 	}
@@ -336,15 +329,11 @@ p2 {
 		margin-bottom: 16px;
 	}
 
-/*	.item1 {
-		width: 75%;
-	}*/
-}
-
-/*@media (max-width: 450px){
 	.item1 {
 		width: 100%;
 	}
+}
 
-}*/
+
+
 

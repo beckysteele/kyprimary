@@ -78,19 +78,3 @@ var $tiles = $("#tile1, #tile2, #tile3").liveTile({
               });
             $(".us-house").append('<div class="collapse" id="collapse-house"><div class="well">' + items.join("") + '</div></div>');
   });
-
-// Dropdown menu toggle
-
-$(window).resize(function() {
-    var width = $(window).width();
-    if (width < 768) {
-        $(".nav-buttons").hide();
-        $(".dropdown").show();
-        $(".item1").css("width", "100%");
-        $("body").css("font-size", "1em");
-    }
-    else {
-        $(".nav-buttons").show();
-        $(".dropdown").hide();
-    }
-});
